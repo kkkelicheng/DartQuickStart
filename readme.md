@@ -282,6 +282,15 @@ printUserInfo("小明",age:18);
 - `Dart` 支持泛型，比如 `List<int>`（表示一组由 `int` 对象组成的列表）或 `List<dynamic>`（表示一组由任何类型对象组成的列表）
 - `Dart` 没有类似于 `Java` 那样的 `public`、`protected`和 `private` 成员访问限定符。如果一个标识符以下划线 `(_)` 开头则表示该标识符在库内是私有的。
 
+###### 1.3.5 import库
+
+- 导入自己写的文件夹中包含的文件， `import 'Animal/Animal.dart';`这里的Animal文件夹是同目录下的文件夹。(这里要写路径，挺麻烦的，iOS基本上没写过)
+
+- 导入系统内置的库，`import 'dart:io';`  这里库的路径是`flutter/bin/cache/dart-sdk/lib`中的各种库
+
+- 导入pub安装的库（类似pod），使用方式看库的说明。导入的方式例如：`import 'package:http/http.dart' as http`
+
+
 
 
 
